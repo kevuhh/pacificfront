@@ -12,5 +12,5 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 app.use(bodyParser.raw());
 
-serv.listen(6969);
+serv.listen(6900);
 console.log("Server started.");
